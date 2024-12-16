@@ -45,7 +45,7 @@ var typed = new Typed('#element', {
 //auto hide slidebar on click
 
   document.addEventListener('DOMContentLoaded', () => {
-    const navbarToggle = document.getElementById('hamburger');
+    const navbarToggle = document.getElementById('slider-button');
     const navbarLinks = document.getElementById('nav-links');
     const navItems = navbarLinks.querySelectorAll('a'); 
     
